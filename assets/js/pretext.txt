@@ -1,0 +1,26 @@
+# HELLO!
+## Welcome to my FCC Markdown Parser
+
+>Feel free to use this editor to test some **markdown** kung-fu.
+
+For example, you can use lists:
+* Oranges
+* Lemons
+* Plutonium
+* Bananas
+
+Or make links...
+[FreeCodeCamp](http://www.freecodecamp.org)
+
+Even some `<code>`!
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+![Thanks for coming by!](assets/images/logo.png)
+
+Thanks for coming by!

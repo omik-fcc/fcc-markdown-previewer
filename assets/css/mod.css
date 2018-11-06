@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-image: url(../images/stripes-light.png);
+    /* Background pattern from Toptal Subtle Patterns */
+}
+
+textarea#editor {
+    border: none;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    resize: none;
+}
+
+#preview {
+    background-color: rgb(243, 239, 198);
+    height: 750px;
+    overflow-y: auto;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: .75rem;
+}
+
+#editor-container {
+    background-color: rgb(202, 202, 202);
+    height: 750px;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: .75rem;
+}
+
+
+#header {
+    margin-top: .5rem;
+    margin-bottom: .75rem;
+    text-align: center;
+}
+
+#footer {
+    margin-top: 1.3rem;
+    text-align:center;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+@media (max-width: 550px) {
+    #editor-container, #preview {
+        height:250px;
+    }
+}
+
